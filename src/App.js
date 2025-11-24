@@ -8,7 +8,7 @@ function App() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/products")
+    fetch("https://7e8vq9ngph.execute-api.us-east-2.amazonaws.com/prod/products")
       .then(res => res.json())
       .then(setProducts)
       .catch(err => setProducts([]));
