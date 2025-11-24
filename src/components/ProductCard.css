@@ -1,0 +1,31 @@
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  background: #fff;
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.buy-button {
+  padding: 5px 10px;
+  margin-top: 5px;
+  background-color: #e6ee76;
+  color: rgb(40, 42, 150);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buy-button:hover {
+  background-color: #adb631;
+}

@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* pushes items to edges */
+  align-items: center;            /* vertically centers */
+  padding: 10px 20px;
+  background: #ce752c;
+  color: #fff;
+}
+.navbar .nav-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar .nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+.navbar .nav-buttons button {
+  padding: 5px 10px;
+  background: #fff;
+  color: #333;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.nav-link {
+  color: #fff;           /* same as navbar text */
+  text-decoration: none;  /* removes underline */
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.nav-link:hover {
+  text-decoration: underline; /* optional hover effect */
+}
